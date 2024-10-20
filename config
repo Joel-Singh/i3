@@ -226,6 +226,6 @@ bindsym $mod+g exec i3-msg 'bar hidden_state toggle'
 
 exec brightnessctl set 30%
 exec redshift -P -O 3000
-exec sleep 1 && picom -b
+exec sleep 1 && picom -b --config ~/i3/picom.conf
 exec feh --bg-scale ~/dotfiles/wallpaper.png
 exec min-browser
